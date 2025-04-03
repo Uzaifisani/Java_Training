@@ -1,5 +1,5 @@
 package collection_framework.stack_operations;
-
+import collection_framework.Employee;
 import java.util.Stack;
 
 public class StackOperationsDemo {
@@ -7,11 +7,11 @@ public class StackOperationsDemo {
         Stack<Employee> employeeStack = new Stack<>();
 
         System.out.println("Pushing employees onto the stack:");
-        employeeStack.push(new Employee(1, "John Doe", 50000.0, 30));
-        employeeStack.push(new Employee(2, "Jane Smith", 60000.0, 28));
-        employeeStack.push(new Employee(3, "Bob Johnson", 55000.0, 35));
-        employeeStack.push(new Employee(4, "Alice Brown", 65000.0, 32));
-        employeeStack.push(new Employee(5, "Charlie Wilson", 70000.0, 40));
+        employeeStack.push(new Employee(1, "John Doe", 50000.0));
+        employeeStack.push(new Employee(2, "Jane Smith", 60000.0));
+        employeeStack.push(new Employee(3, "Bob Johnson", 55000.0));
+        employeeStack.push(new Employee(4, "Alice Brown", 65000.0));
+        employeeStack.push(new Employee(5, "Charlie Wilson", 70000.0));
 
         System.out.println("\nCurrent stack contents:");
         for (Employee emp : employeeStack) {
@@ -27,7 +27,7 @@ public class StackOperationsDemo {
         System.out.println("Top employee: " + topEmployee);
 
         // Search for an employee in the stack
-        Employee searchEmployee = new Employee(3, "Bob Johnson", 55000.0, 35);
+        Employee searchEmployee = new Employee(3, "Bob Johnson", 55000.0);
         int position = employeeStack.search(searchEmployee);
         System.out.println("\nSearching for employee Bob Johnson:");
         if (position != -1) {

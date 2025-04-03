@@ -1,4 +1,4 @@
-package collection_framework.set_operations;
+package collection_framework;
 
 import java.util.Objects;
 

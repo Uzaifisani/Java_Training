@@ -1,5 +1,5 @@
 package collection_framework.list_operations;
-
+import collection_framework.Employee;
 import java.util.LinkedList;
 
 public class LinkedListOperations {

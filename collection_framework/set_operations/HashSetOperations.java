@@ -1,5 +1,6 @@
 package collection_framework.set_operations;
 
+import collection_framework.Employee;
 import java.util.HashSet;
 
 public class HashSetOperations {
