@@ -7,11 +7,11 @@ public class StackOperationsDemo {
         Stack<Employee> employeeStack = new Stack<>();
 
         System.out.println("Pushing employees onto the stack:");
-        employeeStack.push(new Employee(1, "John Doe", 50000.0));
-        employeeStack.push(new Employee(2, "Jane Smith", 60000.0));
-        employeeStack.push(new Employee(3, "Bob Johnson", 55000.0));
-        employeeStack.push(new Employee(4, "Alice Brown", 65000.0));
-        employeeStack.push(new Employee(5, "Charlie Wilson", 70000.0));
+        employeeStack.push(new Employee(1, "Uzaif", 50000.0));
+        employeeStack.push(new Employee(2, "Mahek", 60000.0));
+        employeeStack.push(new Employee(3, "Abdullah", 55000.0));
+        employeeStack.push(new Employee(4, "Aafaan", 65000.0));
+        employeeStack.push(new Employee(5, "Nihal", 70000.0));
 
         System.out.println("\nCurrent stack contents:");
         for (Employee emp : employeeStack) {

@@ -8,4 +8,4 @@ Create a HashSet<Employee> and do the following:
 
 ○ Check if a specific employee exists in the set.
 
-![image](https://github.com/user-attachments/assets/4260ef9f-9225-45e0-9b8c-e664059f7746)
+![Image](https://github.com/user-attachments/assets/d3a4f3c7-6f94-4851-901f-4da0b50ffcdc)

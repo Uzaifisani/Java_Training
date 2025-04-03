@@ -10,4 +10,4 @@ Search for an employee in the stack.
 
 Check if the stack is empty. 
 
-![image](https://github.com/user-attachments/assets/edf5dbb4-566c-4ff1-834a-bfaf976c7e04)
+![Image](https://github.com/user-attachments/assets/80d8908e-4f2c-4b67-a4e0-e65d3eb5594e)
