@@ -1,0 +1,3 @@
+/Notes/       # Ignores Notes folder in the root directory only
+Notes/*       # Ignores contents of Notes folder
+**/Notes/     # Ignores Notes folder in any directory
