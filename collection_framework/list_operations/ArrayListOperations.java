@@ -15,7 +15,7 @@ public class ArrayListOperations {
         employees.add(new Employee(4, "Iqra", 70000));
         employees.add(new Employee(5, "Abdullah", 55000));
 
-        System.out.println("Original Employee usinf Array List");
+        System.out.println("Original Employee using Array List");
         printEmployees(employees);
 
         //System.out.println("Removing employee of Index 2 which is Nihal");
