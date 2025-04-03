@@ -12,6 +12,11 @@ public class HashSetOperations {
         employeeSet.add(new Employee(3, "Bob", 45000));
         employeeSet.add(new Employee(4, "Emma", 70000));
         employeeSet.add(new Employee(5, "David", 55000));
+
+        System.out.println("Added 5 employess with different Ids");
+        for (Employee e : employeeSet) {
+            System.out.println(e);
+        }
         
         boolean added = employeeSet.add(new Employee(1, "John", 50000));
         System.out.println("Attempt to add duplicate employee: " + (added ? "Success" : "Failed"));
@@ -20,7 +25,7 @@ public class HashSetOperations {
         for (Employee e : employeeSet) {
             System.out.println(e);
         }
-        
+        System.out.println();
         Employee searchEmployee = new Employee(3, "Bob", 45000);
         boolean exists = employeeSet.contains(searchEmployee);
         System.out.println("Employee " + searchEmployee + " exists in the set: " + exists);
